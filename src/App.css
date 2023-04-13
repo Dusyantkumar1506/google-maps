@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(255, 248, 252); */
+}
+
+#root {
+  height: 100vh;
+}
+
+.leaflet-container {
+  width: 1350px;
+  height: 500px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  margin: 20px 0;
+  padding: 10px 20px;
+  height: 50px;
+  width: 40%;
+  border-radius: 10px 0 0 10px;
+  font-size: 18px;
+}
+.btn {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  background-color: rgb(12, 111, 186);
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+.btn:hover {
+  background-color: rgb(7, 73, 124);
+}
